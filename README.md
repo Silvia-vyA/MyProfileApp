@@ -51,28 +51,19 @@ tugas pada mata kuliah **Pengembangan Aplikasi Web (PAM)**.
 ## 🖼️ Tampilan Aplikasi
 
 ### Mode Terang
-![Light Mode](my1.jpeg)
-
+![Light Mode](composeApp/src/jvmMain/kotlin/org/example/project/my1.jpeg)
 ---
 
 ### Edit Profile
-![Edit Profile](my2.jpeg)
-
+![Edit Profile](composeApp/src/jvmMain/kotlin/org/example/project/my2.jpeg)
 ---
 
 ### Setelah Diubah
-![Updated Profile](my3.jpeg)
-
+![Updated Profile](composeApp/src/jvmMain/kotlin/org/example/project/my3.jpeg)
 ---
 
 ### Mode Gelap
-![Dark Mode](my4.jpeg)
-
+![Dark Mode](composeApp/src/jvmMain/kotlin/org/example/project/my4.jpeg)
 ---
 
 
-
-
-## 📎 Pembuat
-
-Silvia — 123140133
