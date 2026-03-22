@@ -1,80 +1,78 @@
-# 📱 MyProfileApp — PAM3
+# 📱 MyProfileApp — PAM 4
 
-## Student Profile Application
-**Course:** Pengembangan Aplikasi Web  
-**Class:** RB  
-
-Project ini merupakan tugas **PAM3 (Pertemuan 3)** pada mata kuliah **Pengembangan Aplikasi Web** yang bertujuan membuat aplikasi profil sederhana menggunakan **Compose Multiplatform**.
-
-Aplikasi ini menampilkan informasi profil mahasiswa dalam tampilan **UI card yang rapi dan estetik**, serta menerapkan konsep **Composable Functions yang reusable**.
+Aplikasi profil mahasiswa sederhana yang dibuat menggunakan **Jetpack Compose Multiplatform**.  
+tugas pada mata kuliah **Pengembangan Aplikasi Web (PAM)**.
 
 ---
 
-## 👤 Student Information
+## 👤 Identitas Mahasiswa
 
-| Data | Keterangan |
-|-----|------------|
-| Nama | Silvia |
-| NIM | 123140133 |
-| Kelas | RB |
-| Mata Kuliah | Pengembangan Aplikasi Web |
+- **Nama:** Silvia  
+- **NIM:** 123140133  
+- **Kelas:** RB  
 
 ---
 
-## 📌 Deskripsi Aplikasi
+## 🚀 Fitur Aplikasi
 
-Aplikasi ini menampilkan halaman profil mahasiswa yang berisi:
-
-- Foto profil
-- Nama dan NIM
-- Deskripsi singkat
-- Informasi kontak (Email, Phone, Location)
-- Hobi dalam bentuk chip card
-- Tombol **Contact Me**
-
-Aplikasi dibuat menggunakan **Jetpack Compose / Compose Multiplatform** sehingga setiap komponen UI dibuat dalam bentuk **Composable Function yang reusable**.
+### 1. Penerapan MVVM
+- Menggunakan pola arsitektur **Model-View-ViewModel (MVVM)**
+- Menggunakan **StateFlow** untuk mengelola state
+- Membuat `ProfileViewModel` sebagai pengatur data dan logika
+- Menggunakan `ProfileUiState` untuk menyimpan data UI
 
 ---
 
-## 🧩 Reusable Composable Components
+### 2. Fitur Edit Profile
+- Tersedia form untuk mengubah:
+  - Nama
+  - Bio
+- Menggunakan konsep **state hoisting** pada TextField
+- Tombol **Save** untuk menyimpan perubahan ke ViewModel
+- Tombol **Cancel** untuk membatalkan perubahan
 
-Beberapa komponen composable yang digunakan:
+---
 
-- **ProfileHeader**  
-  Menampilkan foto profil, nama, dan NIM.
+### 3. Fitur Dark Mode
+- Terdapat switch untuk mengubah mode terang dan gelap
+- State disimpan di ViewModel
+- Tampilan aplikasi menyesuaikan secara otomatis
 
-- **InfoItem**  
-  Menampilkan informasi kontak seperti email, phone, dan location.
+---
 
-- **ProfileCard**  
-  Komponen utama yang membungkus seluruh informasi profil.
-
-- **HobbySection**  
-  Menampilkan daftar hobi pengguna.
-
-- **HobbyChip**  
-  Komponen kecil untuk menampilkan satu hobi dengan ikon.
+### 4. Tampilan UI
+- Dibuat menggunakan **Jetpack Compose**
+- Menggunakan layout berbasis card
+- Tampilan responsive dan bisa di-scroll
+- Warna menyesuaikan antara light mode dan dark mode
 
 ---
 
 ## 🖼️ Tampilan Aplikasi
 
-Berikut adalah hasil tampilan aplikasi:
-
-![PAM3 Screenshot](./composeApp/pam3.jpeg)
-
----
-
-## 🛠️ Teknologi yang Digunakan
-
-- Kotlin
-- Compose Multiplatform
-- Material 3
-- Android Studio
+### Mode Terang
+![Light Mode](my1.jpeg)
 
 ---
 
+### Edit Profile
+![Edit Profile](my2.jpeg)
+
+---
+
+### Setelah Diubah
+![Updated Profile](my3.jpeg)
+
+---
+
+### Mode Gelap
+![Dark Mode](my4.jpeg)
+
+---
 
 
 
-⭐ Project ini dibuat sebagai bagian dari tugas **Pengembangan Aplikasi Web (PAM3)**.
+
+## 📎 Pembuat
+
+Silvia — 123140133
